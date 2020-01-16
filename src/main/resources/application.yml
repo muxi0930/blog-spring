@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+
+
+server:
+  servlet:
+    # 配置项目访问的根路径
+    context-path:
+
+
+# 开启spring boot的debug模式，启动时输出自动配置报告
+debug: false

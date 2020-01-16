@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+logging:
+  level: # 调整日志级别，MAP对应包名和级别
+    com.muxi: trace
+#  file: a.log # 如果存在，同时将日志输出到文件
+  pattern: # 在文件和控制台中输出日志的格式
+    #console:
+    file: "%d{yyyy-MM-dd} [%thread] %clr(%-5level %logger{50} - %msg%n)"

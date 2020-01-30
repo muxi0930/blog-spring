@@ -2,13 +2,11 @@ spring:
   profiles:
     active: dev
 
-
-
-server:
-  servlet:
-    # 配置项目访问的根路径
-    context-path:
-
-
 # 开启spring boot的debug模式，启动时输出自动配置报告
 debug: false
+
+github:
+  client:
+    id: 91d04e55f0825492f8d9
+    secret: 930b326dcad9b9562112ab8d50a784c797e52815
+  redirect_uri: http://localhost:8080/callback
